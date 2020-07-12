@@ -19,6 +19,21 @@ target/
 *.iml
 *.ipr
 
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.project
+.classpath
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -31,3 +46,8 @@ build/
 
 ### VS Code ###
 .vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
